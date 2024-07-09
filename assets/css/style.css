@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    padding-top: 4.5rem;
+    padding-bottom: 5rem;
+    background-color: #dfdfbc;
+    color: #333; 
+}
+
+.container {
+    max-width: 960px; 
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 90%;
+    background-color: #3f3e3e !important; 
+    color: white; 
+    z-index: 1000;
+    display: flex !important;
+    align-items: center !important; 
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+    color: white !important;
+}
+
+.container {
+    margin-top: 0rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3f3e3e !important;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.btn {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+    background-color: #333;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+.delete {
+    margin-top: 0.5rem;
+    margin-left: 5%;
+}
+
+@media (max-width: 576px) {
+    .btn {
+        padding: 0.2rem 0.5rem;
+        font-size: 0.75rem;
+    }
+}
